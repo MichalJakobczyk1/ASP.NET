@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Komputer\\Desktop\\asp.net_lab\\Lab1\\Lab1.csproj": {}
+    "D:\\Users\\Michal.Jakobczyk\\ASP.NET\\asp_net_lab\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Komputer\\Desktop\\asp.net_lab\\Lab1\\Lab1.csproj": {
+    "D:\\Users\\Michal.Jakobczyk\\ASP.NET\\asp_net_lab\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Komputer\\Desktop\\asp.net_lab\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "D:\\Users\\Michal.Jakobczyk\\ASP.NET\\asp_net_lab\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\Komputer\\Desktop\\asp.net_lab\\Lab1\\Lab1.csproj",
-        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Komputer\\Desktop\\asp.net_lab\\Lab1\\obj\\",
+        "projectPath": "D:\\Users\\Michal.Jakobczyk\\ASP.NET\\asp_net_lab\\Lab1.csproj",
+        "packagesPath": "D:\\Users\\Michal.Jakobczyk\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Michal.Jakobczyk\\ASP.NET\\asp_net_lab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\Michal.Jakobczyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,13 +39,30 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

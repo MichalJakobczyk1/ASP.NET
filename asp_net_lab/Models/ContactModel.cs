@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Lab1.Models
 {
-    public class ContactModel
+    public class Contact
     {
         [HiddenInput]
         public int Id { get; set; }
